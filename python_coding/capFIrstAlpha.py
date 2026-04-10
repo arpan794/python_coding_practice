@@ -1,22 +1,22 @@
 
-text = "hello world"
-capitalized = text.capitalize()
-print(capitalized) # Output: Hello world
+# text = "hello world"
+# capitalized = text.capitalize()
+# print(capitalized) # Output: Hello world
 
 
-text = "hello world"
-print(text.title())   # Output: Hello World
+# text = "hello world"
+# print(text.title())   # Output: Hello World
 
 
-text = "hello world"
+# text = "hello world"
 
-# Capitalize first character manually
-if text:
-    capitalized = text[0].upper() + text[1:]
-else:
-    capitalized = ""
+# # Capitalize first character manually
+# if text:
+#     capitalized = text[0].upper() + text[1:]
+# else:
+#     capitalized = ""
 
-print(capitalized)
+# print(capitalized)
 
 #==============================================
 
