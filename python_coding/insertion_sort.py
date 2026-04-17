@@ -1,4 +1,4 @@
-def inserton_sort(arr):
+def insertion_sort(arr):
     n = len(arr)
 
     for i in range(1, n):
@@ -14,7 +14,7 @@ def inserton_sort(arr):
     return arr
 
 nums = [12, 11, 13, 5, 6]
-print(inserton_sort(nums))
+print(insertion_sort(nums))
 
 # “Take one element and insert it in the correct position in sorted part”
 
