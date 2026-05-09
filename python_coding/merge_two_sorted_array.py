@@ -21,7 +21,7 @@ def merge_sorted_arrays(arr1, arr2):
     return merged_arr
 
 # Example usage
-arr1 = []     
+arr1 = [10,8,9]     
 arr2 = [2, 4, 6, 8]
 merged = merge_sorted_arrays(arr1, arr2)
 print("Merged sorted array:", merged)

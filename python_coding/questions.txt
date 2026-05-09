@@ -123,3 +123,8 @@ If you want next:
 🔥 I can give **solutions with step-by-step explanation**
 🔥 Or take a **mock interview (timed coding round)**
 🔥 Or give **top 20 must-do questions for placements** 🚀
+
+
+=======>>>>> merge the tools ==================>
+
+Split the string into subsegments of length $k$, then print each subsegment with any duplicate characters stripped out.
