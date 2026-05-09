@@ -14,11 +14,10 @@ def count_logo(string):
     counts = Counter(string)
 
     
-    for char, freq in counts.items():
-        sort_alpha = sorted(counts.items(), key=lambda x: (-x[1], x[0]))
+    sort_alpha = sorted(counts.items(), key=lambda x: (-x[1], x[0]))
 
-    for i in range(0,3):
-        print(sort_alpha[i][0], sort_alpha[i][1])
+    for char, freq in sort_alpha[:3]:
+        print(char, freq)
 
     
         
