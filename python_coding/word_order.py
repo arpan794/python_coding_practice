@@ -24,4 +24,20 @@
 
 # There are 3 distinct words. Here, "bcdef" appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are "bcdef", "abcdefg" and "bcde" which corresponds to the output.
 
+from collections import Counter
 
+
+def word_order(order):
+    words = order.split()
+    freq = {}
+
+    for word in words:
+        freq[word] = freq.get(word, 0) +1
+        
+
+    print(len(freq))
+    print( *freq.values() )
+
+
+order = "my name arpan arpan"
+word_order(order)
