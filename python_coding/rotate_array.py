@@ -12,3 +12,19 @@ def rotate_array(arr,k):
 arr = [1,2,3,4,5]
 k = 2   
 print(rotate_array(arr, k))
+
+
+# optimal solution
+
+# arr = [1,2,3,4,5]
+# k = 2
+
+# n = len(arr)
+# k = k % n
+
+# arr.reverse()
+
+# arr[:k] = reversed(arr[:k])
+# arr[k:] = reversed(arr[k:])
+
+# print(arr)
